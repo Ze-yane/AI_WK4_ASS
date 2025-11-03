@@ -41,10 +41,6 @@ It demonstrates:
 ## ⚙️ Requirements
 To run the notebook, install the following dependencies:
 
-```bash
-pip install pandas scikit-learn matplotlib seaborn
-
-
 ## ⚖️ Ethical Reflection
 When deploying predictive models in organizations, **biases** in training data can affect fairness. For example, underrepresented patient groups might have less accurate predictions. Using fairness tools like **IBM AI Fairness 360**, such biases can be identified and mitigated. These tools measure disparate impact, equal opportunity, and help rebalance the dataset through reweighing or adversarial debiasing, ensuring equitable outcomes across all user groups.
 
@@ -53,4 +49,11 @@ Proposal — SynthData Studio: An Intermediate AI-Assisted Test Data Synthesizer
 
 Purpose
 SynthData Studio creates realistic, constraint-aware synthetic datasets for testing and QA. It targets engineering teams that need representative test inputs (unit, integration, and performance) but lack privacy-safe or diverse production data. Unlike simple random generators, SynthData Studio enforces schema rules, inter-field constraints, and produces edge-case and adversarial inputs guided by code and usage patterns.
+
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+
+
+  
+
 
